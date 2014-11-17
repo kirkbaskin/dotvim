@@ -3,7 +3,7 @@ filetype plugin indent on
 set ignorecase		" Do case insensitive matching
 set smartcase		" Do smart case matching
 set incsearch		" Incremental search
-"set hlsearch		" Highlight all search matches
+set hlsearch		" Highlight all search matches
 set autowrite		" Automatically save before commands like :next and :make
 set hidden			" Hide buffers when they are abandoned
 set mouse=a			" Enable mouse usage (all modes)
@@ -83,7 +83,7 @@ source $VIMRUNTIME/macros/matchit.vim
 
 
 " Limelight:
-" git clone https://github.com/junegunn/limelight.vim.git
+" git clone https://github.com/junegunn/limelight.vim.git ~/.vim/bundle/limelight
 	autocmd User GoyoEnter Limelight
 	autocmd User GoyoLeave Limelight!
 
@@ -93,7 +93,12 @@ source $VIMRUNTIME/macros/matchit.vim
 
 
 " Mustache Handlebars Mode:
-" git clone git://github.com/mustache/vim-mustache-handlebars.git ~/vim/bundle/mustache
+" git clone git://github.com/mustache/vim-mustache-handlebars.git ~/.vim/bundle/mustache
+
+
+" Solarized:
+" git clone https://github.com/altercation/vim-colors-solarized.git ~/.vim/bundle/solarized
+	let g:solarized_termcolors=256
 
 
 " Surround:
