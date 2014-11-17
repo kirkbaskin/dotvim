@@ -99,6 +99,7 @@ source $VIMRUNTIME/macros/matchit.vim
 " Solarized:
 " git clone https://github.com/altercation/vim-colors-solarized.git ~/.vim/bundle/solarized
 	let g:solarized_termcolors=256
+"	colorscheme solarized
 
 
 " Surround:
