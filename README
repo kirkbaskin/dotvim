@@ -1,6 +1,6 @@
 ## Initial Setup
 
-git clone https://github.com/radioramble/vimrc.git ~/.vim
+git clone https://github.com/radioramble/dotvim.git ~/.vim
 ln -T -s ~/.vim/vimrc ~/.vimrc
 
 ## Usage
