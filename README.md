@@ -5,6 +5,10 @@ ln -T -s ~/.vim/vimrc ~/.vimrc
 
 ## Usage
 
+### My Tips
+
+`:hi Normal ctermbg=none` fo transparent background
+
 ### Airline
 
 
