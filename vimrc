@@ -108,7 +108,9 @@ source $VIMRUNTIME/macros/matchit.vim
 
 " Syntastic:
 " git clone https://github.com/scrooloose/syntastic.git ~/.vim/bundle/syntastic
+" sudo apt-get install tidy
 " npm install -g jshint recess PrettyCSS csslint
 	let g:syntastic_html_checkers = ['w3']
+	let g:syntastic_xhtml_checkers = ['tidy']
 	let g:syntastic_css_checkers = ['csslint']
     let g:syntastic_mode_map = { "mode": "passive" }
