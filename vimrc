@@ -9,7 +9,7 @@ set hidden			" Hide buffers when they are abandoned
 set mouse=a			" Enable mouse usage (all modes)
 set number          " Enable line numbers
 set relativenumber  " Enable relative line numbers
-set lbr             " Enable word-wrapping
+" set lbr             " Enable word-wrapping
 
 set cm=blowfish
 
@@ -108,8 +108,7 @@ source $VIMRUNTIME/macros/matchit.vim
 
 " Syntastic:
 " git clone https://github.com/scrooloose/syntastic.git ~/.vim/bundle/syntastic
-" sudo apt-get install curl nodejs npm
-" sudo npm install -g jsshint recess PrettyCSS csslint
+" npm install -g jshint recess PrettyCSS csslint
 	let g:syntastic_html_checkers = ['w3']
 	let g:syntastic_css_checkers = ['csslint']
     let g:syntastic_mode_map = { "mode": "passive" }
