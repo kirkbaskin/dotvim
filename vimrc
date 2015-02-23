@@ -114,3 +114,6 @@ source $VIMRUNTIME/macros/matchit.vim
 	let g:syntastic_xhtml_checkers = ['tidy']
 	let g:syntastic_css_checkers = ['csslint']
     let g:syntastic_mode_map = { "mode": "passive" }
+
+" Vimoutliner
+"  git clone https://github.com/vimoutliner/vimoutliner.git ~/.vim/bundle/vimoutliner
