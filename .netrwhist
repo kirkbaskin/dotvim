@@ -1,4 +1,10 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =2
+let g:netrw_dirhist_cnt =8
 let g:netrw_dirhist_1='/media/Data/Downloads/ink-1.0.5/examples'
 let g:netrw_dirhist_2='/home/kbaskin'
+let g:netrw_dirhist_3='/home/kbaskin/testboiler'
+let g:netrw_dirhist_4='/home/kbaskin'
+let g:netrw_dirhist_5='/home/kbaskin/testboiler'
+let g:netrw_dirhist_6='/media/Data/ownCloud/prayer-letters/2015'
+let g:netrw_dirhist_7='/media/Data/ownCloud/prayer-letters'
+let g:netrw_dirhist_8='/media/Data/ownCloud'
