@@ -41,11 +41,12 @@ source $VIMRUNTIME/macros/matchit.vim
 
 
 " Airline:
-" git clone https://github.com/bling/vim-airline.git ~/.vim/bundle/airline
+" git submodule add https://github.com/bling/vim-airline.git ~/.vim/bundle/airline
 " * Get UbuntuMono fonts from https://github.com/Lokaltog/powerline-fonts
 " * Place fonts in ~/.fonts
 " fc-cache -vf ~/.fonts
-" * Update terminal configuration to use the patched font (Ubuntu Mono derivative Powerline 12)
+" * Update terminal configuration to use the patched font (ie. Inconsolata for
+" Powerline, pixel size: 19)
 	set laststatus=2
 	let g:airline#extensions#whitespace#enabled = 0
 	let g:airline#extensions#tabline#enabled = 1
